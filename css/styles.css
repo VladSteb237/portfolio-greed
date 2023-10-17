@@ -511,10 +511,12 @@ Services
 .service:hover {
   background: var(--clr-primary-5);
   color: var(--clr-white);
+  cursor: pointer;
 }
 
 .service:hover p {
   color: var(--clr-white);
+  cursor: pointer;
 }
 
 .service:hover .underline {
@@ -723,11 +725,11 @@ Connect
   padding: 12rem 5rem 14rem 5rem;
   text-align: center;
 
-  -webkit-clip-path: polygon(0% 0%,
-      100% 0%,
+  -webkit-clip-path: polygon(0% 20%,
+      100% 20%,
       100% 75%,
       75% 75%,
-      75% 100%,
+      75% 90%,
       50% 75%,
       0% 75%);
   clip-path: polygon(0% 20%,
